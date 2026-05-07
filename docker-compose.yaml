@@ -1,0 +1,6 @@
+services:
+  pulse-svc:
+    build: .
+    ports:
+      - "9302:9302"
+    restart: unless-stopped
